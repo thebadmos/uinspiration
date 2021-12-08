@@ -1,0 +1,270 @@
+$backgroundColor : #434667;
+$textAlign: center;
+$boxWidth: 400px;
+$boxHeight: 360px;
+$boxBackground: #0d0d2c;
+$boxBorder : 2px solid #333;
+$boxRadius: 10px;
+$boxPadding: 20px;
+$boxMargin:10px ;
+$formLabelColor : gray;
+$formLabelFont: 15px;
+$buttonColor: #12caf8;
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $backgroundColor;
+  
+}
+
+h1{
+  text-align: $textAlign;
+  padding-top: 30px;
+}
+.box,
+.box1,
+.box2,
+.box3,
+.box4,
+.box5{
+  margin:$boxMargin; 
+  width:$boxWidth;
+  height: $boxHeight;
+  padding:$boxPadding;
+  background: $boxBackground;
+  border: $boxBorder;
+  border-radius: $boxRadius;
+  }
+.box1{
+  height: 220px;
+  margin-top:30px;
+  }
+  #box1{
+    height:250px;
+  }
+  
+.box2{
+  height: 250px;
+  margin-top:50px;
+  width: 380px
+}
+.box3{
+  height: 500px;
+}
+.box4{
+  height: 300px;
+  width: 350px
+}
+.box5{
+  height: 250px;
+  width: 250px
+}
+.box,
+.box1,
+.box2,
+.box3,
+.box4,
+.box5{
+  .forgot,
+  .sign{
+    color: #fff;
+    text-align: $textAlign;
+  }
+  #sign1{
+    margin-top: auto;
+  }
+  span{
+    color: #fff;
+    font-size: $formLabelFont;
+  }
+  .ratio{
+    color: green;
+  }
+  .label{
+    color: $formLabelColor;
+    margin-left: 30px;
+  }
+    .ui.form .field>label,
+  .ui.checkbox label {
+    color: $formLabelColor;
+    font-size:$formLabelFont;
+  }
+   .ui.checkbox label:before{
+    background-color:$boxBackground;
+    border:  2px solid #434667;
+  }
+    .ui.form input{
+    background-color: $boxBackground;
+    border-radius: $boxRadius;
+    border:  2px solid #434667;
+  }
+  .ui.button, 
+   .depositText{
+    width: 355px;
+    border-radius: $boxRadius;
+    color: #fff;
+    background-color: $buttonColor;
+    font-size: $formLabelFont;
+    padding: 14px;
+    }
+ 
+    .depositText{
+      color: $formLabelColor;
+      background-color: #21253f;
+    }
+
+  .ratioButton.button{
+    width:70px;
+    border-radius: 5px;
+    color:green;
+    background-color:#fff ;
+    font-size: $formLabelFont;
+    padding-left:8px;
+    padding:6px;
+  }
+   h4{
+     text-align: $textAlign;
+     color: $formLabelColor;
+   } 
+   h4 a{
+     color: $buttonColor;
+   }
+  h2{
+    color:#fff;
+  }
+  .ratiolast{
+    color: $formLabelColor;
+  }
+  .message{
+    text-align: $textAlign;
+  }
+  .header{
+    color: $formLabelColor;
+   }
+
+  .icon{
+    margin-left: 139px;
+    font-size: 50px;
+    color: $buttonColor;
+}
+   #icon1{
+  float: right;
+  color: $buttonColor;
+   }
+  .icon1{
+  color:$formLabelColor;
+  margin: 0px;
+  font-size: 20px ;
+  }
+  #trans{
+   margin-left: 80px;
+   color: $formLabelColor;
+  }
+   .ui.table,
+  .ui.table thead th {
+   background-color: $boxBackground;
+   color: #fff;
+   font-size: 13px;
+ }
+ .ui.selection.dropdown {
+  background-color: #414463;
+ }
+ .coinConvert{
+   color: $formLabelColor;
+ }
+ #disabled{
+   color: red;
+ }
+ #active{
+   color:green;
+ }
+ #notC{
+   color: orange;
+ }
+ .ethereum{
+   text-align: center;
+ }
+}
+
+
+.linechart{
+  width: 350px;
+}
+@media only screen and (max-width: 600px) {
+ .linechart {
+    width:250px;
+  }
+}
+/* Toggle csss*/
+.wrg-toggle {
+  touch-action: pan-x;
+ 
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+  float:right;
+}
+
+.wrg-toggle-input {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.wrg-toggle-check, .wrg-toggle-uncheck {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 0;
+  opacity: 0;
+  transition: opacity .25s ease;
+}
+.wrg-toggle-check {
+  left: 8px;
+}
+.wrg-toggle-uncheck {
+  opacity: 1;
+  right: 10px;
+}
+
+.wrg-toggle-container{
+  width: 40px;
+  height: 24px;
+  padding: 0;
+  border-radius: 30px;
+  background-color: #4d4d4d;
+  transition: all .2s ease;
+}
+
+.wrg-toggle-circle{
+  transition: all .5s cubic-bezier(.23,1,.32,1) 0ms;
+  position: absolute;
+  bottom: 1px;
+  width: 25px;
+  height: 23px;
+  border: 1px solid #4d4d4d;
+  border-radius: 50%;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  transition: all .25s ease;
+}
