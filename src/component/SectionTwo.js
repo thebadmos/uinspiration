@@ -8,7 +8,7 @@ function SectionOne() {
     return (
         /* Signup container */
         <Grid>
-             <Grid.Row columns={4} only='computer only' >
+             <Grid.Row columns={4}>
              <Grid.Column>
                <div className="box">
             <h3 className="sign">Confirm Order</h3>
