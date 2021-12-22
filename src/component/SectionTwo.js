@@ -50,7 +50,7 @@ function SectionOne() {
      <Image src={src1} size='small' centered /><br/>
      <p className='depositText'>USDT Deposit Address &nbsp; &nbsp; &nbsp;
      <Icon enabled name='copy' className='icon1' id='icon1'/> <br/>
-     n6mge7asd11bfsp24km89sd1k3sdnkBlygfdghkgcd</p>
+     n6mge7asd11bfsp24km89sd1k3sdnkBlyg</p>
      <Icon enabled name='ban' className='icon1' />
       <span className='ratiolast'> Send only BTC to this deposit address. 
          </span><br/><br/>
@@ -162,7 +162,7 @@ function SectionOne() {
      <Image src={src1} size='small' centered /><br/>
      <p className='depositText'>USDT Deposit Address &nbsp; &nbsp; &nbsp;
      <Icon enabled name='copy' className='icon1' id='icon1'/> <br/>
-     n6mge7asd11bfsp24km89sd1k3sdnkBlygfdghkgcd</p>
+     n6mge7asd11bfsp24km89sd1k3sdnkBlygf</p>
      <Icon enabled name='ban' className='icon1' />
       <span className='ratiolast'> Send only BTC to this deposit address. 
          </span><br/><br/>

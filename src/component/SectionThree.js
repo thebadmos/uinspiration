@@ -89,7 +89,7 @@ function SectionOne() {
   </Grid.Column>
   
   <Grid.Column >
-        <div className="box3">
+        <div className="box3" id="box3">
        <h3 className='sign' id='sign1'>Withdraw USDT</h3>
        <Form>
     <Form.Field>
